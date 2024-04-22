@@ -5,6 +5,7 @@ with {
 };
 import ./mergedirs.nix {
   dirs = map (a: a { withPath = p: p; }) [
+    circlemaniac.cmwublib
     grandpascout.gsanimblend
     grandpascout.gsanimblend.lite
     grandpascout.gsanimblend.tiny

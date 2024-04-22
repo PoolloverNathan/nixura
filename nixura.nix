@@ -39,6 +39,9 @@ let
     __functor = _: bareLibrary (removeAttrs args ["variants"]);
   };
 in rec {
+  circlemaniac.cmwublib = library {
+    path = /embed/circlemaniac/CMwubLib.lua;
+  };
   grandpascout.gsanimblend = library {
     github = {
       owner = "GrandpaScout";
