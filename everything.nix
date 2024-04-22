@@ -1,5 +1,5 @@
 { nixpkgs ? import <nixpkgs> {} }@args:
-with import ./lib.nix args;
+with import ./nixura.nix args;
 with {
   force = a: builtins.deepSeq a a;
 };
