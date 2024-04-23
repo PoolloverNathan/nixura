@@ -1,0 +1,19 @@
+nixura: with nixura; [
+  auriafoxgirl.panels
+  circlemaniac.cmwublib
+  grandpascout.gsanimblend
+  grandpascout.gsanimblend.lite
+  grandpascout.gsanimblend.tiny
+  hetman_foko.companionsapi
+  jimmyhelp.jimmyanims
+  kitcat962.dynamiccrosshair
+  manuel_2867.confetti
+  manuel_2867.hotbarsync
+  manuel_2867.quickoutline
+  manuel_2867.rainbownametag
+  manuel_2867.runlater
+  manuel_2867.sleepable
+  manuel_2867.swingingphysics
+  mitchoftarcoola.moararmsapi
+  mrsirsquishy.squapi
+]

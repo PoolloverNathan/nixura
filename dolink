@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+set -eu
+t="$(mktemp)"
+trap 'rm "$t"' EXIT
+cat "$1" > "$t"
+rm "$1"
+cat "$t" > "$1"
